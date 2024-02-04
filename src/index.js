@@ -1,17 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Card from "./Card";
+import {robots} from './robots';
+import CardList from "./CardList";
 import "./index.css";
 import 'tachyons';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
+    <CardList robots={robots}/>
   </React.StrictMode>
 );
