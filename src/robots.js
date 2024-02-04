@@ -1,5 +1,11 @@
 export const robots = [
   {
+    id: 0,
+    name: 'Criss Lynn',
+    username: 'Criss',
+    email: 'Criss@lynn.yup'
+  },
+  {
     id: 1,
     name: 'Leanne Graham',
     username: 'Bret',
@@ -43,7 +49,7 @@ export const robots = [
   },
   {
     id: 8,
-    name: 'Nicholas Runolfsdottir V',
+    name: 'Nicholas Runol V',
     username: 'Maxime_Nienow',
     email: 'Sherwood@rosamond.me'
   },
